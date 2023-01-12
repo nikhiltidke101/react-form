@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SubmitPage = ({data, type}) => {
+const SubmitPage = ({data, type, restart}) => {
   return (
     <div className='flex justify-center'>   
         <form  className="flex flex-col p-3 gap-6 w-full m-8">
@@ -50,6 +50,7 @@ const SubmitPage = ({data, type}) => {
                                 <h3 className='font-semibold'>Address: <span className='font-light'>{data.address}</span></h3>
                             </div>
                         </div>
+                        <button className="px-5 py-1 rounded-md bg-slate-200 border border-blue-600 text-blue-600" onClick={()=>restart()} >Re-submit</button>
                     </>
                 )
             }
@@ -98,6 +99,7 @@ const SubmitPage = ({data, type}) => {
                                 <h3 className='font-semibold'>Address: <span  className='font-light' >{data.address}</span></h3>
                             </div>
                         </div>
+                        <button className="px-5 py-1 rounded-md bg-slate-200 border border-blue-600 text-blue-600" onClick={()=>restart()} >Re-submit</button>
                     </>
                 )
             }

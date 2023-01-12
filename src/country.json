@@ -1,0 +1,30 @@
+[
+    {
+        "country": "India",
+        "currency_code": "INR"
+    },
+    {
+        "country": "Afghanistan",
+        "currency_code": "AFN"
+    },
+    {
+        "country": "Albania",
+        "currency_code": "ALL"
+    },
+    {
+        "country": "Algeria",
+        "currency_code": "DZD"
+    },
+    {
+        "country": "American Samoa",
+        "currency_code": "USD"
+    },
+    {
+        "country": "Andorra",
+        "currency_code": "EUR"
+    },
+    {
+        "country": "Angola",
+        "currency_code": "AOA"
+    }
+]
